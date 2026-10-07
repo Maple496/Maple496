@@ -1,25 +1,25 @@
 {
-  "name": "星屑弹球",
-  "brief": "触屏拖动挡板击碎星屑砖块的弹球小游戏，支持键盘左右键。",
+  "name": "UNDERRUN",
+  "brief": "UNDERRUN 平台移植版：phoboslab js13k 射击经典（MIT 开源）",
   "work_ref": "WORKS-",
   "entry": "src/main.js",
   "status": "ok",
   "files": [
     {
-      "path": "src/entities.js",
-      "role": "实体与规则：球、挡板、砖块数据与碰撞判定"
+      "path": "src/engine.js",
+      "role": ""
     },
     {
-      "path": "src/engine.js",
-      "role": "状态与主循环：RAF 驱动、输入分发、调用实体与渲染"
+      "path": "src/entities.js",
+      "role": ""
     },
     {
       "path": "src/ui.js",
-      "role": "界面与渲染：画布绘制（球/挡板/砖块/分数）与 DOM 覆盖层（开始/胜负弹窗）"
+      "role": ""
     },
     {
       "path": "src/main.js",
-      "role": "入口：创建画布、装配模块，唯一 Work.register 容器声明（mount/destroy）"
+      "role": ""
     }
   ],
   "generated_by": "proj_forge（AI 工程工坊）"
